@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Titillium WebThin'), local('TitilliumWeb-Thin'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/anMUvcNT0H1YN4FII8wpr3XqdloEk0Ij5qwGW4qO9RM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v1/7XUFZ5tgS-tD6QamInJTcdGU7DQ8I6RFMlK0vgclk7w.woff) format('woff');
+}
+
+#nav {
+width:85%;
+background-color:rgba(255, 255, 255, 0.7);
+color:black;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+font-family: 'Titillium Web', sans-serif;
+font-size:230%;
+text-align:center;
+margin: auto;
+}
+
+body, html {
+margin-top:-20px;
+}
+
+html {
+  background: url(bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+li {
+list-style-type: none;
+display:inline;
+line-height:3em;
+margin-right: 50px;
+font-family: 'Titillium Web', sans-serif;
+}
+
+li:hover{
+background-color: black;
+border-radius:5px;
+padding-left:3px;
+padding-right:3px;
+}
+
+body {
+margin:0;
+}
+
+#footer {
+width:85%;
+background-color:rgba(255, 255, 255, 0.7);
+color:black;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+font-family: 'Titillium Web', sans-serif;
+font-size:170%;
+text-align:center;
+margin:auto;
+}
+
+p {
+padding-left:8px;
+padding-right:8px;
+font-family: 'Titillium Web', sans-serif;
+}
+
+#content {
+width:85%;
+background-color:rgba(255, 255, 255, 0.7);
+color:black;
+border-radius:5px;
+font-family: 'Titillium Web', sans-serif;
+font-size:200%;
+text-align:center;
+margin: auto;
+}
+
+a {
+ text-decoration: none; /* no underline */
+ color:black;
+}
+a:visited {
+ text-decoration: none; /* no underline */
+ color:grey;
+}
+a:hover {
+ text-decoration: none; /* no underline */
+ color:white;
+}
